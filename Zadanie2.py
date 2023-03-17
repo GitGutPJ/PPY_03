@@ -1,6 +1,6 @@
 pierwsza = input('Podaj pierwsza liczbe')
-symbol = input('Podaj symobol operacji (+,-,*,/)')
 druga = input('Podaj druga liczbe')
+symbol = input('Podaj symobol operacji (+,-,*,/)')
 pierwsza = int(pierwsza)
 druga = int(druga)
 
@@ -14,4 +14,5 @@ def mathemax(znak):
     return result.get(znak, "Zly znak")
 
 
-print(mathemax(symbol))
+print("Wynik: ",mathemax(symbol))
+
